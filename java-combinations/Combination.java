@@ -5,7 +5,7 @@ package com.hmkcode;
 public class Combination {
 
 	
-	public static void main(String[] args){
+	public static void main(String args[]){
 		Object[] elements = new Object[] {'A','B','C','D','E'};
 		combination(elements,3);
 	}
