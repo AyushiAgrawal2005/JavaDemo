@@ -11,7 +11,7 @@ import com.itextpdf.text.pdf.PdfWriter;
 
 public class App 
 {
-    public static void main( String[] args ) throws FileNotFoundException, DocumentException
+    public static void main( String args[] ) throws FileNotFoundException, DocumentException
     {
     	// step 1
     	Document document = new Document();
@@ -30,5 +30,6 @@ public class App
         document.close();
 
         System.out.println( "PDF Created!" );
+        System.out,println("By Akash 23bcaf03 mid term")
     }  
 }
